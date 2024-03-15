@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bfdc7ed36b.js" crossorigin="anonymous"></script>
+    <title>Covenant University Internet Login</title>
+</head>
+<body>
+    <div class="overlay">
+        <section class="nav container">
+            <div class="cu">
+                <img src="./CU-removebg-preview.png" alt="CU Logo"> <!-- Use the edited image with transparent background -->
+            </div>
+            <div class="bar">
+                <a href="#">Buy Data</a>
+                <a href="#">Click To Change Password</a>
+                <a href="#">Check Account Balance</a>
+            </div>
+           
+        </section>
+        <section class="main container">
+            <h1>Authentication Required</h1>
+            <p>Please enter your Username and Password to continue</p>
+            <form id="loginForm">
+                <div class="input-box">
+                    <label>Username</label>
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" id="username" required>
+                </div>
+                <div class="input-box">
+                    <label>Password</label>
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="password" required>
+                </div>
+                <button type="button" onclick="continueToNextPage()">Continue</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="script.js"></script> <!-- Include your JavaScript file -->
+</body>
+</html>
