@@ -106,25 +106,26 @@ body{
     margin-bottom: 80px;
    }
    .nav a{
-    padding: 0px;
+    padding: 8px;
     font-size: 13px;
    }
    .nav img{
     margin-left: 0px;
    }
    .main h1{
+    margin-left: 25px;
     margin-bottom: 0px;
     font-size: 20px;
    }
    .main p{
-    margin-left: 80px;
-   
-    align-items: center;
-    text-align: center;
+    margin-left: 10px;
+    
+    
+    
    
    }
    .main .input-box{
-    padding-left: 70px;
+    margin-left: 5px;
    }
    .main button {
     margin-left: 80px;
@@ -137,14 +138,15 @@ body{
         
     }
     .main p{
-        margin-left: 70px;
+      margin-left: 80px;
+
         
        
        }
        .main .input-box{
-        padding-left: 100px;
+        padding-left: 80px;
        }
        .main button {
-        margin-left: 100px;
+        margin-left: 80px;
        }
 }
